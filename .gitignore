@@ -1,0 +1,36 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+
+# Machine learning artifacts
+*.keras
+*.h5
+*.pkl
+*.pickle
+*.joblib
+outputs/
+data/
+datasets/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

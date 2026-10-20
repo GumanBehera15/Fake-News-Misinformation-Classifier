@@ -1,0 +1,31 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "metric_average": "macro",
+  "confusion_matrix": [
+    [
+      45,
+      0,
+      0
+    ],
+    [
+      0,
+      45,
+      0
+    ],
+    [
+      0,
+      0,
+      45
+    ]
+  ],
+  "test_samples": 135,
+  "labels": [
+    "Likely Real",
+    "Needs Verification",
+    "Likely Fake"
+  ],
+  "dataset_warning": "Synthetic demonstration data must not be used to claim real-world performance."
+}

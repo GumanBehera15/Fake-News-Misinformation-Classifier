@@ -1,0 +1,10 @@
+{
+  "vocab_size": 20000,
+  "max_length": 300,
+  "model_type": "BiLSTM (3-class)",
+  "class_names": [
+    "Likely Real",
+    "Needs Verification",
+    "Likely Fake"
+  ]
+}
